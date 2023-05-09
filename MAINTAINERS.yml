@@ -472,8 +472,9 @@ Debug:
 Device Driver Model:
   status: maintained
   maintainers:
-    - tbursztyka
+    - gmarull
   collaborators:
+    - tbursztyka
     - dcpleung
     - nashif
   files:
@@ -675,6 +676,7 @@ Release Notes:
     - samples/subsys/canbus/
     - subsys/canbus/
     - subsys/net/l2/canbus/
+    - tests/drivers/build_all/can/
     - tests/drivers/can/
     - tests/net/socket/can/
     - tests/subsys/canbus/
@@ -2222,6 +2224,8 @@ NXP Platforms:
     - EmilioCBen
     - decsny
     - manuargue
+    - dbaluta
+    - iuliana-prodan
   files:
     - boards/arm/mimx*/
     - boards/arm/frdm_k*/
